@@ -1,0 +1,7 @@
+# dependencies
+client/node_modules
+smart_contract/node_modules
+
+#hardhat files
+smart_contract/cache
+smart_contract/artifacts
