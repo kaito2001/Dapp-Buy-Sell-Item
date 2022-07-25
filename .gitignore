@@ -1,7 +1,14 @@
-# dependencies
-client/node_modules
 smart_contract/node_modules
+smart_contract/.env
+smart_contract/coverage
+smart_contract/coverage.json
+smart_contract/typechain
+smart_contract/typechain-types
 
-#hardhat files
+#Hardhat files
 smart_contract/cache
 smart_contract/artifacts
+
+## client
+
+client/node_modules

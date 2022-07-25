@@ -1,5 +1,7 @@
+
+
 const main = async () => {
-  const transfersFactory = await hre.ethers.getContractFactory("Transfer");
+  const transfersFactory = await hre.ethers.getContractFactory("Transactions");
   const transfersContract = await transfersFactory.deploy();
 
   await transfersContract.deployed();
